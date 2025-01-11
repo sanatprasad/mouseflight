@@ -8,8 +8,6 @@ This project was built in **Unity 2017.3.1f1**, and tested in 2018.3.0 and 5.6.4
 
 Note: When importing the package into 5.6.4, the demo scene will need to have its lighting reset. (Open Window->Lighting->Settings, then click the gear icon on the top right -> Reset.)
 
-## Download
-You can either clone the repository or [download the asset package](https://github.com/brihernandez/MouseFlight/raw/master/MouseFlight.unitypackage) located in the root.
 
 ## Demo Controls
 
@@ -68,14 +66,4 @@ If you'd like to add camera motion, such as the camera moving back when the airc
 ### Camera
 Transform of the camera itself. Only used as reference for rotating the MouseAim transform relative to the screen.
 
-# Changelog
 
-### 1.1 (Jan 6 2019)
-
-- Converted project/package to 2017.3.1f1 for improved compatibility
-- Removed C# code that was dependent on .Net 4.6 for improved compatibility
-- Removed unused materials and variables
-
-### 1.0 (Jan 4 2019)
-
-- Released
